@@ -3,3 +3,4 @@ debug/*.xlsx
 debug/
 *.csv
 *.bkp
+*.env
