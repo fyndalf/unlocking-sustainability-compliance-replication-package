@@ -1,0 +1,97 @@
+<mxfile host="Electron" modified="2024-06-18T14:09:53.045Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.6 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="wUwU9g9NN6JSHiC3-lj8" version="24.4.6" type="device">
+  <diagram name="Page-1" id="pdNYUbPhAxf6JZ4B4p24">
+    <mxGraphModel dx="989" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ycT4cnrD4B3OQ_CcK6Fb-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="648" y="290" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="120" width="250" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-1" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="229" y="155" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="81" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-6" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.gear;strokeWidth=2;fillStyle=solid;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="200" y="310" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-7" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;1) Preprocessing&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontFamily=Times New Roman;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="104.5" y="480" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-9" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="170" y="175" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-11" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Load Taxonomy&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="110" y="240" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-12" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Integrate Footnotes&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="110" y="400" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-15" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.document;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="298" width="58.46" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="120" width="270" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-18" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;LLM&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="393" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-20" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;strokeWidth=2;rotation=90;" parent="1" vertex="1">
+          <mxGeometry x="428" y="310" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-21" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;2) Prompting&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontFamily=Times New Roman;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="384.5" y="480" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Certainly! Here ...&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.18;base=9;flipH=0;flipV=0;size=10;position=0.18;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="478" y="324" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-26" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;dx=15;dy=15;rounded=1;arcSize=8;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="360" y="140" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-27" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" parent="1" vertex="1">
+          <mxGeometry x="393" y="170" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-28" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" parent="1" vertex="1">
+          <mxGeometry x="403" y="180" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-29" value="Objective, Econ. Activity, Techn. Screen. Criteria" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontSize=14;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="413" y="190" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-31" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="120" width="250" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-32" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;3) Parsing&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontFamily=Times New Roman;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="664.5" y="480" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-38" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;strokeWidth=2;rotation=90;" parent="1" vertex="1">
+          <mxGeometry x="730" y="240" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-39" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="641" y="298" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-40" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Certainly! Here ...&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.18;base=9;flipH=0;flipV=0;size=10;position=0.18;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="670" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-41" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Certainly! Here ...&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.18;base=9;flipH=0;flipV=0;size=10;position=0.18;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="680" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-42" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Certainly! Here ...&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.18;base=9;flipH=0;flipV=0;size=10;position=0.18;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="690" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-43" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Certainly! Here ...&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.18;base=9;flipH=0;flipV=0;size=10;position=0.18;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="700" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-44" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Certainly! Here ...&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.18;base=9;flipH=0;flipV=0;size=10;position=0.18;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="710" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k4wacHdoXt6kNdn1KVcu-45" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Times New Roman&quot;&gt;&lt;b style=&quot;&quot;&gt;Goal&lt;/b&gt;: Pollution Prevention&lt;br&gt;&lt;b style=&quot;&quot;&gt;Activity&lt;/b&gt;: C21.1&lt;/font&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;mx8tDLq_LJQ-xG_jfSdf&quot;&gt;&lt;b style=&quot;&quot;&gt;Substantial Contribution&lt;/b&gt;:&lt;br&gt;control-flow: 3,&lt;br&gt;temporal: 0&lt;br&gt;...&lt;br&gt;&lt;b style=&quot;&quot;&gt;DNSH Water:&lt;/b&gt;&lt;br&gt;...&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="308" width="220" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

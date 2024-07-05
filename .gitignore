@@ -1,0 +1,5 @@
+debug/*.csv
+debug/*.xlsx
+debug/
+*.csv
+*.bkp

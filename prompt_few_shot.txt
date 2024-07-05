@@ -1,0 +1,60 @@
+You will be given a text passage from a regulatory document, in order to identify the types of constraints laid out in this passage.
+Constraints can refer to specific activities, that is, individual steps of a larger process that companies execute to realize their business goal.
+
+We distinguish between four types of process constraints:
+- control-flow: The text passage imposes constraints on the execution and ordering of activities. For example, certain activities need to happen after others, must not happen before them, or must generally be executed.
+- temporal: The text passage imposes constraints on the temporal relation between activities.
+- resource: The text passage imposes constraints on the resource (such as people, things, or machines) involved in the execution of an activity
+- data: The text passage imposes constraints on data attributes of the activity (e.g., certain thresholds must not be exceeded)
+- irrelevant: The constraints laid out do not relate to any of the other four process constraint types described above, or are not related to activities of a larger process.
+
+Further, we distinguish whether constraints are between activities or within activities.
+Examples for constraints between activities are activity orderings, rules where subsequent activities must be executed by the same resource, or a certain time limit that must be kept between two activities.
+Examples for constraints within activities are rules prescribing properties of that particular activity, such as a maximum execution duration, data attributes of the activity, or certain roles that must execute the activity.
+
+Consider the following example excerpts of text passages:
+"The activity minimises the use of fertilisers and does not use manure." are two resource constraints within an activity.
+"The GHG emissions do not exceed 1,604 tCO2e per ton of aluminium manufactured;the indirect GHG emissions do not exceed 270g CO2e/kWh;the electricity consumption for the manufacturing process does not exceed 15.5 MWh/t Al" are three data constraint between process activities.
+"An assessment of the direct GHG emissions from the centralised waste water system, including collection (sewer network) and treatment, has been performed(429)" is a control-flow constraint within an activity.
+"At least 70% (by weight) of the non-hazardous construction, demolition or other waste materials (excluding naturally occurring material defined in category 17 05 04 in the European List of Waste established by Decision 2000/532/EC) generated on the  site under remediation is prepared for reuse, recycling and other material recovery, including backfilling operations using waste to substitute other materials" is a data constraint between activities.
+"Within two years after the beginning of the activity and every 10 years thereafter, the compliance of the activity with the substantial contribution to climate change mitigation criteria and the DNSH criteria are verified by either of the following:the relevant national competent authorities;an independent third-party certifier, at the request of national authorities or the operator of the activity.In order to reduce costs, audits may be performed together with any forest certification, climate certification or other audit." is a temporal constraint between activities and a resource constraint within an activity.
+"For air to air heat pumps with rated capacity of 12kW or below, indoor and outdoor sound power levels are below the threshold set out in Regulation (EU) No 206/2012." is a resource constraint within an activity.
+"Measures have been implemented to avoid and mitigate harmful storm water overflows from the waste water collection system, which may include nature-based solutions, separate storm water collection systems, retention tanks and treatment of the first flush." is a process-irrelevant constraint.
+"The operator of this activity has developed and implemented a climate change mitigation and environmental protection plan" is a process-irrelevant constraint.
+"For existing activities and new activities using existing physical assets, the economic operator implements physical and non-physical solutions (‘adaptation solutions’), over a period of time of up to five years, that reduce the most important identified physical climate risks that are material to that activity." is a process-irrelevant constraint.
+"Any stripping of lagging that contains or is likely to contain asbestos, breaking or mechanical drilling or screwing or removal of insulation board, tiles and other asbestos containing materials is carried out by appropriately trained personnel, with health monitoring before, during and after the works, in accordance with national law." is a control-flow constraint between activities and a resource constraint within an activity.
+Sometimes, the text passage may lay out requirements towards emission reduction measures or remediation plans. Should these measures not be part of the business process itself but only need to be enacted alongside it, this would also constitute a process-irrelevant constraint.
+
+Your task is to identify the types of constraints present in the text passage you will be given below. Make sure you consider the entire passage in detail. Keep in mind that some text passages may actually be irrelevant and therefore may contain constraints that are not applicable to processes. 
+Further, take into account any regulation (such as  Regulation (EU) 2019/1021(65)), standard (such as  EN ISO 10077-1:2017), directive (such as Directive 2000/60/EC), or other piece of legislation that the text passage may refer to.
+Also make sure to follow potential footnotes given in brackets (such as (13)). Should they be provided, also take the appendices into account. They may contain relevant and irrelevant constraints.
+
+Print your results as an object, like indicated in the following, containing only the number of constraints you identified for each type and sticking to the format. Do not forget to provide the number of irrelevant constraints. Make sure you do not add anything else, such as comments, directly into the output object!
+
+{{
+    'control-flow': {{
+        'within_activities': [number of control-flow constraints within activities],
+        'between_activities': [number of control-flow constraints between activities]
+    }},
+    'temporal': {{
+        'within_activities': [number of temporal constraints within activities],
+        'between_activities': [number of temporal constraints between activities]
+    }},
+    'resource': {{
+        'within_activities': [number of resource constraints within activities],
+        'between_activities': [number of resource constraints between activities]
+    }},
+    'data':{{
+        'within_activities': [number of data constraints within activities],
+        'between_activities': [number of data constraints between activities]
+    }},
+    'irrelevant': [number of irrelevant constraints]
+}}
+
+Above the object that indicates your results, please also provide an explanation of how you came to the constraints you identified, and why. Please add an explanation for all constraints, do not just give examples.
+
+{description_of_activity}
+
+Here is the text passage in which you have to identify the constraint types:
+
+{taxonomy_chunk}

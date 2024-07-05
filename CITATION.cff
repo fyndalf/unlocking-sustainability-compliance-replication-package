@@ -1,0 +1,30 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Replication Package for "Unlocking Sustainability
+  Compliance: Characterizing the EU Taxonomy for Business
+  Process Management"
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Finn
+    family-names: Klessascheck
+    email: finn.klessascheck@tum.de
+    affiliation: Technical University of Munich
+    orcid: 'https://orcid.org/0000-0001-6961-1828'
+repository-code: >-
+  https://github.com/fyndalf/unlocking-sustainability-compliance-replication-package
+abstract: >-
+  This provides a replication package for our study on
+  characterizing the EU taxonomy for sustainable activities
+  regarding its potential to be used for compliance
+  monitoring with conformance checking.
+keywords:
+  - sustainability
+  - conformance checking
+  - EU taxonomy
+  - business processes
