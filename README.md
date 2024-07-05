@@ -6,7 +6,7 @@ Be advised that the prompt template and raw results speaks of control flow const
 
 ## Requirements
 
-- Python 3.10 and pip3
+- Python 3.12 and pip3
 - A free account with [Groq](https://groq.com/)
 - A stable (!) internet connection
 
