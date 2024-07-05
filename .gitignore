@@ -4,3 +4,4 @@ debug/
 *.csv
 *.bkp
 *.env
+.env
