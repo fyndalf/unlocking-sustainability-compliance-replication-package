@@ -2,7 +2,9 @@
 
 This provides a replication package for our study on characterizing the EU taxonomy for sustainable activities regarding its potential to be used for compliance monitoring with conformance checking.
 
-Be advised that the prompt template and raw results speaks of control flow constraints "within" and "between" activities, while we in fact mean activity existence constraints and "traditional "control flow constraints. We found that this produced more plausible results, perhaps due to the symmetry with other constraints that can in fact be "within" and "between" activities
+Be advised that the prompt template and raw results speaks of control flow constraints "within" and "between" activities, while we in fact mean activity existence constraints and "traditional "control flow constraints. We found that this produced more plausible results, perhaps due to the symmetry with other constraints that can in fact be "within" and "between" activities.
+
+In the `evaluation` folder, we provide a dataset in which we evaluate characterizations of constraints for the environmental objectives of water protection, circular economy, pollution prevention, biodiversity protection. Note that we only describe those in which we actually detected problems, meaning that the number of entirely plausible characterizations is higher than those displayed in the evaluation sheet.
 
 ## Requirements
 
